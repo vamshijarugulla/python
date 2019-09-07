@@ -1,0 +1,22 @@
+Regular expressions:
+
+a regular expression is a sequence of characters that match a pattern. 
+
+[]       represent a character
+^        matches the begining
+$        matches the ending
+*        number of occurrences(zero also )
++        number of occurances(from 1)
+.        to match a character
+
+
+
+
+[0-9]-> any digit
+[a-z]-> any lower case alphabet
+[2468]->all single digit multiples of 2
+^[0-9]{1}$-> only single digit numbers
+^[0-9]{3}$-> only 3 digit numbers
+[0-9]*0$-> all multiples of 10
+^([1-9][0-9]*[05] [5] -> all multiples of 5
+(word)-> seaching for a word
